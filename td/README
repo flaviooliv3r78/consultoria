@@ -1,0 +1,212 @@
+# TD Consultoria - Landing Page
+
+Uma landing page moderna e responsiva para consultoria especializada em laminação de embalagens.
+
+## 📁 Estrutura dos Arquivos
+
+```
+td-consultoria/
+│
+├── index.html          # Estrutura HTML principal
+├── styles.css          # Estilos CSS completos
+├── script.js           # JavaScript funcionalidades
+└── README.md           # Documentação do projeto
+```
+
+## 🚀 Características
+
+## 🚀 Características
+
+### ✨ Design & UX/UI
+- **Fundo preto** com detalhes em branco e gradientes elegantes
+- **Design responsivo** para mobile, tablet e desktop
+- **Animações suaves** e efeitos hover modernos
+- **Tipografia clara** e hierarquia visual bem definida
+
+### 🖼️ Componentes Visuais
+- **Carrossel de imagens** com navegação automática e manual
+- **Cards animados** para serviços e equipamentos
+- **Seção de depoimentos** com layout moderno
+- **Gradientes e efeitos** glassmorphism
+
+### 📱 Funcionalidades
+- **2 botões WhatsApp** - um na seção de contato e outro flutuante
+- **Menu de navegação** suave entre seções
+- **Animações on-scroll** para engajamento
+- **Carrossel com controles** manuais e automáticos
+- **Menu mobile** responsivo com animações
+
+### 🏭 Seções Específicas
+- **Equipamentos**: Nordmeccanica, Comexi, Shockflex
+- **Serviços**: Consultoria, treinamento, auditoria
+- **Galeria**: Projetos realizados
+- **Depoimentos**: Feedback de clientes
+
+## 📱 Responsividade
+
+- **Mobile-first** design
+- **Breakpoints** otimizados:
+  - Desktop: 1200px+
+  - Tablet: 768px - 1199px
+  - Mobile: até 767px
+  - Mobile pequeno: até 480px
+
+## 🛠️ Como Usar
+
+### 1. Preparação
+1. Crie uma pasta para o projeto
+2. Copie todos os arquivos (HTML, CSS, JS)
+3. Mantenha a estrutura de arquivos
+
+### 2. Personalização
+
+#### Contatos WhatsApp:
+Altere os números de telefone nos links:
+```html
+<!-- Substitua 5511999999999 pelo seu número -->
+https://wa.me/5511999999999
+```
+
+#### Informações da Empresa:
+```html
+<!-- No index.html, altere: -->
+- Textos das seções
+- Informações de contato
+- Depoimentos de clientes
+```
+
+#### Cores e Estilos:
+```css
+/* No styles.css, personalize: */
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #cccccc;
+    --whatsapp-color: #25D366;
+}
+```
+
+### 3. Adicionando Imagens
+Substitua os placeholders do carrossel por suas imagens reais:
+```html
+<!-- No index.html, seção gallery -->
+<div class="carousel-item">
+    <img src="sua-imagem.jpg" alt="Descrição">
+</div>
+```
+
+## 🎨 Customização de Cores
+
+### Esquema de Cores Principal:
+- **Fundo**: #000000 (Preto)
+- **Texto**: #ffffff (Branco)
+- **Detalhes**: #cccccc (Cinza claro)
+- **WhatsApp**: #25D366 (Verde)
+
+### Para alterar o esquema:
+1. Abra `styles.css`
+2. Procure pelas cores no código
+3. Substitua pelos códigos hexadecimais desejados
+
+## 📞 Configuração WhatsApp
+
+### Botão Flutuante (Lateral):
+```javascript
+// Mensagem: "Gostaria de saber mais sobre os serviços..."
+```
+
+### Botão Principal (Seção Contato):
+```javascript
+// Mensagem: "Gostaria de agendar uma visita técnica..."
+```
+
+### Para personalizar as mensagens:
+Edite os parâmetros `text=` nos links do WhatsApp no `index.html`.
+
+## 🔧 Funcionalidades JavaScript
+
+### Carrossel:
+- Auto-play (4 segundos)
+- Navegação por setas
+- Navegação por dots
+- Suporte a teclado (setas)
+- Suporte a touch/swipe
+
+### Menu Mobile:
+- Animação hamburger → X
+- Auto-fechamento ao clicar em links
+- Fechamento ao clicar fora
+
+### Animações:
+- Fade-in ao scroll
+- Hover effects
+- Transições suaves
+
+## 🌐 Compatibilidade
+
+### Navegadores Suportados:
+- ✅ Chrome 60+
+- ✅ Firefox 60+
+- ✅ Safari 12+
+- ✅ Edge 79+
+
+### Dispositivos:
+- ✅ Desktop (1920x1080+)
+- ✅ Laptop (1366x768+)
+- ✅ Tablet (768x1024)
+- ✅ Mobile (375x667+)
+
+## ⚡ Performance
+
+### Otimizações Incluídas:
+- CSS otimizado sem frameworks
+- JavaScript vanilla (sem dependências)
+- Imagens responsivas
+- Lazy loading preparado
+- Transições aceleradas por GPU
+
+### Métricas Esperadas:
+- **Lighthouse Score**: 90+
+- **First Paint**: < 1.5s
+- **Time to Interactive**: < 3s
+
+## 📝 Lista de Tarefas
+
+### Para Produção:
+- [ ] Adicionar imagens reais ao carrossel
+- [ ] Configurar números de telefone reais
+- [ ] Adicionar favicon
+- [ ] Configurar meta tags SEO
+- [ ] Testar em todos os dispositivos
+- [ ] Otimizar imagens para web
+
+### Melhorias Futuras:
+- [ ] Adicionar Google Analytics
+- [ ] Implementar formulário de contato
+- [ ] Adicionar certificados SSL
+- [ ] Integração com redes sociais
+- [ ] Blog/Notícias seção
+
+## 🆘 Suporte
+
+### Problemas Comuns:
+
+**Menu mobile não funciona:**
+- Verifique se o `script.js` está carregando
+- Confirme se não há erros no console
+
+**WhatsApp não abre:**
+- Verifique o formato do número (5511999999999)
+- Teste em diferentes dispositivos
+
+**Carrossel não funciona:**
+- Confirme se todos os elementos existem no HTML
+- Verifique erros no JavaScript
+
+## 📄 Licença
+
+Este projeto é de uso livre para TD Consultoria. Desenvolvido com foco em performance e usabilidade.
+
+---
+
+**Desenvolvido com ❤️ para TD Consultoria**  
+*Especialistas em laminação de embalagens há mais de 20 anos*
